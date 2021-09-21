@@ -18,7 +18,7 @@ The code for each blog post is stored in a separate sub-package (for example `ZR
 
 ## Download and Installation
 
-You can download this code and import it into an ABAP environment system.
+You can download this code and import it into an ABAP environment system using the ABAP GitCLient. Please be sure to have a package `ZRAPCLOUD` in `ZLOCAL`created beforehand.
 
 ## Known Issues
 
