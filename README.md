@@ -1,12 +1,18 @@
-# Title
+# ABAP Platform code samples for SAP BTP ABAP environment
 
 ## Description
+
+In this repository you will find several packages that contain the sample code of various blog posts
 
 ## Requirements
 
 ## Download and Installation
 
+You can download this code and import it into an ABAP environment system.
+
 ## Known Issues
+
+When you try to import this repository into a ABAP environment trial systems it might happen that this import does not run smoothly if another user has already performed an import.
 
 ## How to obtain support
 
