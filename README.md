@@ -12,8 +12,8 @@ In this repository you will find several packages that contain the sample code o
 
 ## Requirements
 
-This sample code can be deployed on a SAP BTP ABAP Environment system. 
-You have to create a package ZRAPCLOUD beforehand in ZLOCAL.
+This sample code can be deployed on a SAP BTP ABAP Environment system.   
+You have to create a package `ZRAPCLOUD` beforehand in `ZLOCAL`.  
 
 ## Download and Installation
 
