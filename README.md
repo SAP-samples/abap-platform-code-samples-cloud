@@ -6,7 +6,7 @@ In this repository you will find several packages that contain the sample code o
 
 ### How to generate RAP BOs with custom entities  
 
-   [Blog Post: How to generate RAP BOs with custom entities](https://blogs.sap.com/2021/09/21/how-to-generate-rap-bos-with-custom-entities)  
+   [Blog Post: How to generate RAP BOs with custom entities ?](https://blogs.sap.com/2021/09/21/how-to-generate-rap-bos-with-custom-entities)  
    [source code](../../tree/main/src/rap_gen_cust_ent)
 
 
