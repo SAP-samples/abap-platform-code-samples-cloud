@@ -4,6 +4,8 @@
 
 In this repository you will find several packages that contain the sample code of various blog posts
 
+- https://blogs.sap.com/2021/09/21/how-to-generate-rap-bos-with-custom-entities/
+
 ## Requirements
 
 ## Download and Installation
