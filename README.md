@@ -1,5 +1,5 @@
 # ABAP Platform Code Samples for SAP BTP, ABAP environment
-
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-platform-code-samples-cloud)](https://api.reuse.software/info/github.com/SAP-samples/abap-platform-code-samples-cloud)
 ## Description
 
 In this repository you will find several packages that contain the sample code of various blog posts.
