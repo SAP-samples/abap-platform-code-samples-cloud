@@ -10,7 +10,7 @@ In this repository you will find several packages that contain the sample code o
 
 ### How to design managed RAP business objects with 3 or more levels of nodes
 * [How to design managed RAP business objects with 3 or more levels of nodes](https://blogs.sap.com/2022/02/18/how-to-design-managed-rap-business-objects-with-3-or-more-levels-of-nodes/)  
-* [Code on Github](../../tree/main/src/rap_gen_cust_ent)  
+* [Code on Github](../../tree/main/src/zrapcloud)  
 
 ## Requirements
 
