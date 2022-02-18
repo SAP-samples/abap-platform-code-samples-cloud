@@ -6,7 +6,11 @@ In this repository you will find several packages that contain the sample code o
 
 ### How to generate RAP BOs with custom entities  
 * Blog Post: [How to generate RAP BOs with custom entities ?](https://blogs.sap.com/2021/09/21/how-to-generate-rap-bos-with-custom-entities)  
-* [Source code](../../tree/main/src/rap_gen_cust_ent)
+* [Code on Github](../../tree/main/src/rap_gen_cust_ent)
+
+### How to design managed RAP business objects with 3 or more levels of nodes
+* [How to design managed RAP business objects with 3 or more levels of nodes](https://blogs.sap.com/2022/02/18/how-to-design-managed-rap-business-objects-with-3-or-more-levels-of-nodes/)  
+* [Code on Github](../../tree/main/src/rap_gen_cust_ent)  
 
 ## Requirements
 
