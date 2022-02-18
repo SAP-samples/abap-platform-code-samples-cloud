@@ -1,0 +1,6 @@
+define service ZAF_DEMOLEVEL1_01 {
+  expose ZC_AF_DEMOLEVEL1_01 as DemoLevel1;
+  expose ZC_AF_DEMOLEVEL2_01 as DemoLevel2;
+  expose ZC_AF_DEMOLEVEL3_01 as DemoLevel3;
+  expose ZC_AF_DEMOLEVEL4_01 as DemoLevel4;
+}

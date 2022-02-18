@@ -3,10 +3,8 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <DEVC>
-    <CTEXT>Generated Package for ZRAPCLOUD</CTEXT>
+    <CTEXT>Sample with a hierachy of 4 levels</CTEXT>
     <TPCLASS>X</TPCLASS>
-    <RESTRICTED>X</RESTRICTED>
-    <MAINPACK>S</MAINPACK>
    </DEVC>
   </asx:values>
  </asx:abap>
