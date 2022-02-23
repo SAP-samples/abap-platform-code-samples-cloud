@@ -12,6 +12,9 @@ In this repository you will find several packages that contain the sample code o
 * [How to design managed RAP business objects with 3 or more levels of nodes](https://blogs.sap.com/2022/02/18/how-to-design-managed-rap-business-objects-with-3-or-more-levels-of-nodes/)  
 * [Code on Github](../../tree/main/src/zrapcloud)  
 
+### How to dynamically get a list of the entities of a RAP Business Object (or how to traverse a tree)?
+* [How to dynamically get a list of the entities of a RAP Business Object (or how to traverse a tree)?](https://blogs.sap.com/2022/02/23/how-to-dynamically-get-a-list-of-the-entities-of-a-rap-business-object-or-how-to-traverse-a-tree/)
+* [Code on Github](../../tree/main/src/zrapcloud) 
 ## Requirements
 
 This sample code can be deployed on a SAP BTP ABAP Environment system.   
