@@ -145,39 +145,39 @@ By pressing F9 the method main will be executed.
 
 If everything works well you should see an output like the following. When you run it the first time the query will not find any entries.
 
-Searched via filter string: filter=urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:division eq "1234"&startIndex=6&count=5
-External Id: hugo.test5@test.de
-External Id: SHUGO5
-External Id: hugo.test6@test.de
-External Id: SHUGO6
-External Id: hugo.test7@test.de
-External Id: SHUGO7
-External Id: hugo.test8@test.de
-External Id: SHUGO8
-External Id: hugo.test9@test.de
-External Id: SHUGO9
-----------------------------------
-Trying to create Hugo Test24 
-Status: 201  User created successfully.
-Get user by username :SHUGO24
-Trying to change Hugo Test24 via PUT
-Status: 200  The user is updated successfully.
-Trying to change Hugo Test24_25 via PATCH
-Status: 204  The user is patched successfully.
-Searched via filter string: filter=userName eq "SHUGO24"
-Givenname: Hugo
-Familyname: Test24_25
-DisplayName: Hugo Test24_25
-EMail: hugo.test24_25@test.de
-Id: 29646a9f-9e4a-4d63-9242-a43f499b0686
-Partner_Id: 1234
-Username: SHUGO24
-External Id: SHUGO24
-----------------------------------
-Tryping to add Hugo Test24 as a member to ZDMO_DEMO_ROLE
-Status: 204  The group is updated successfully.
-status of job api call: 423 reason  
-Status: 423 Job cannot be triggered as it has been started before a predefined minimum time interval (30 minutes) 
+Searched via filter string: filter=urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:division eq "1234"&startIndex=6&count=5  
+External Id: hugo.test5@test.de  
+External Id: SHUGO5  
+External Id: hugo.test6@test.de  
+External Id: SHUGO6  
+External Id: hugo.test7@test.de  
+External Id: SHUGO7  
+External Id: hugo.test8@test.de  
+External Id: SHUGO8  
+External Id: hugo.test9@test.de  
+External Id: SHUGO9  
+----------------------------------  
+Trying to create Hugo Test24   
+Status: 201  User created successfully.  
+Get user by username :SHUGO24  
+Trying to change Hugo Test24 via PUT  
+Status: 200  The user is updated successfully.  
+Trying to change Hugo Test24_25 via PATCH  
+Status: 204  The user is patched successfully.   
+Searched via filter string: filter=userName eq "SHUGO24"  
+Givenname: Hugo  
+Familyname: Test24_25  
+DisplayName: Hugo Test24_25  
+EMail: hugo.test24_25@test.de  
+Id: 29646a9f-9e4a-4d63-9242-a43f499b0686  
+Partner_Id: 1234  
+Username: SHUGO24  
+External Id: SHUGO24  
+----------------------------------  
+Tryping to add Hugo Test24 as a member to ZDMO_DEMO_ROLE  
+Status: 204  The group is updated successfully.  
+status of job api call: 423 reason    
+Status: 423 Job cannot be triggered as it has been started before a predefined minimum time interval (30 minutes)   
 
 
 # How to section
