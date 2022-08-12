@@ -145,6 +145,7 @@ By pressing F9 the method main will be executed.
 
 If everything works well you should see an output like the following. When you run it the first time the query will not find any entries.
 
+<pre>
 Searched via filter string: filter=urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:division eq "1234"&startIndex=6&count=5  
 External Id: hugo.test5@test.de  
 External Id: SHUGO5  
@@ -178,7 +179,7 @@ Tryping to add Hugo Test24 as a member to ZDMO_DEMO_ROLE
 Status: 204  The group is updated successfully.  
 status of job api call: 423 reason    
 Status: 423 Job cannot be triggered as it has been started before a predefined minimum time interval (30 minutes)   
-
+</pre>
 
 # How to section
 
