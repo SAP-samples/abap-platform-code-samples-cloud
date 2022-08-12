@@ -17,7 +17,7 @@ In this repository you will find several packages that contain the sample code o
 * [Code on Github](../../tree/main/src/zrapcloud_tree_traversal)  
 
 ### ABAP SDK for SAP Identity Services
-* [readme](readme_abap_sdk.md)  
+* [readme of the ABAP SDK](readme_abap_ids_sdk.md)  
 
 ## Requirements
 
