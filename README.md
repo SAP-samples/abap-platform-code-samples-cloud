@@ -4,6 +4,12 @@
 
 In this repository you will find several packages that contain the sample code of various blog posts.
 
+### 
+
+Blog Post: [How to use side effects in RAP](https://blogs.sap.com/2023/02/23/how-to-use-side-effects-in-rap/)
+* [Code on Github](../../tree/main/src/001)
+
+<!--
 ### How to generate RAP BOs with custom entities  
 * Blog Post: [How to generate RAP BOs with custom entities ?](https://blogs.sap.com/2021/09/21/how-to-generate-rap-bos-with-custom-entities)  
 * [Code on Github](../../tree/main/src/rap_gen_cust_ent)
@@ -20,15 +26,21 @@ In this repository you will find several packages that contain the sample code o
 * [readme of the ABAP SDK](readme_abap_ids_sdk.md) 
 * [Code on Github](../../tree/main/src/zdmo_abap_ids_sdk)  
 
+-->
+
 ## Requirements
 
 This sample code can be deployed on a SAP BTP ABAP Environment system.   
-You have to create a package `ZRAPCLOUD` beforehand in `ZLOCAL`. 
-The code for each blog post is stored in a separate sub-package (for example `ZRAPCLOUD_RAP_GEN_CUST_ENT`) of the super package `ZRAPCLOUD`.  
+
+You have to create a package e.g. `ZDMO_ABAP_CLOUD_SAMPLES_01` beforehand in `ZLOCAL`. 
+
+You have to link this repository to this package.
+
+The code for each blog post is stored in a separate sub-package (for example `ZDMO_ABAP_CLOUD_SAMPLES_01_001`) of the super package `ZDMO_ABAP_CLOUD_SAMPLES_01`.   
 
 ## Download and Installation
 
-You can download this code and import it into an ABAP environment system using the ABAP GitCLient. Please be sure to have a package `ZRAPCLOUD` in `ZLOCAL`created beforehand.
+You can download this code and import it into an ABAP environment system using the ABAP GitCLient. Please be sure to have a package e.g. `ZDMO_ABAP_CLOUD_SAMPLES_01` in `ZLOCAL` created beforehand.
 
 ## Known Issues
 
