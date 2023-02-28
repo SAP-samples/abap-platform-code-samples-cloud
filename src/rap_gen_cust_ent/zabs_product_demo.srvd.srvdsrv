@@ -1,3 +1,0 @@
-define service ZABS_PRODUCT_DEMO {
-  expose ZI_ABS_PRODUCT_DEMO as Product;
-}
