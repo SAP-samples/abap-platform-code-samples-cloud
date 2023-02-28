@@ -1,0 +1,101 @@
+@Metadata.layer: #CUSTOMER
+@UI: {
+  headerInfo: {
+    typeName: 'Calculator', 
+    typeNamePlural: 'Calculators', 
+    title: {
+      type: #STANDARD, 
+      label: 'Calculator', 
+      value: 'CalcResult'
+    }
+  }, 
+  presentationVariant: [ {
+    sortOrder: [ {
+      by: 'CalcResult', 
+      direction: #DESC
+    } ], 
+    visualizations: [ {
+      type: #AS_LINEITEM
+    } ]
+  } ]
+}
+annotate view ZC_CalculatorTP_01 with
+{
+  @UI.facet: [ {
+    id: 'idCollection', 
+    type: #COLLECTION, 
+    label: 'Calculator', 
+    position: 10 
+  }, 
+  {
+    id: 'idIdentification', 
+    parentId: 'idCollection', 
+    type: #IDENTIFICATION_REFERENCE, 
+    label: 'General Information', 
+    position: 10 
+  } ]
+  @UI.hidden: true
+  CalcUUID;
+  
+  @UI.lineItem: [ {
+    position: 20 , 
+    importance: #HIGH, 
+    label: 'OperandA'
+  } ]
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'OperandA'
+  } ]
+  OperandA;
+  
+  @UI.lineItem: [ {
+    position: 50 , 
+    importance: #HIGH, 
+    label: 'OperandB'
+  } ]
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'OperandB'
+  } ]
+  OperandB;
+  
+  @UI.lineItem: [ {
+    position: 60 , 
+    importance: #HIGH, 
+    label: 'CalcResult'
+  } ]
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'CalcResult'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  CalcResult;
+  
+  @UI.lineItem: [ {
+    position: 20 , 
+    importance: #HIGH, 
+    label: 'Operator'
+  } ]
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'Operator'
+  } ]
+  Operator;
+  
+  @UI.hidden: true
+  CreatedAt;
+  
+  @UI.hidden: true
+  CreatedBy;
+  
+  @UI.hidden: true
+  LastChangedBy;
+  
+  @UI.hidden: true
+  LastChangedAt;
+  
+  @UI.hidden: true
+  LocalLastChangedAt;
+}
