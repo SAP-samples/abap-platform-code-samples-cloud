@@ -36,7 +36,9 @@ You have to create a package e.g. `ZDMO_ABAP_CLOUD_SAMPLES_01` beforehand in `ZL
 
 You have to link this repository to this package.
 
-The code for each blog post is stored in a separate sub-package (for example `ZDMO_ABAP_CLOUD_SAMPLES_01_001`) of the super package `ZDMO_ABAP_CLOUD_SAMPLES_01`.   
+The code for each blog post is stored in a separate sub-package (for example `ZDMO_ABAP_CLOUD_SAMPLES_01_001`) of the super package `ZDMO_ABAP_CLOUD_SAMPLES_01`, that means the package uses **Prefix** folder logic.  
+
+When you import the content into another package (e.g. ZMYDEMO) the subpackages will be named ZMYDEMO_001 accordingly.  
 
 ## Download and Installation
 
