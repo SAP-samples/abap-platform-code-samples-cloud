@@ -4,7 +4,7 @@
 
 In this repository you will find several packages that contain the sample code of various blog posts.
 
-### 
+### How to use side effects in RAP?
 
 Blog Post: [How to use side effects in RAP](https://blogs.sap.com/2023/02/23/how-to-use-side-effects-in-rap/)
 * [Code on Github](../../tree/main/src/001)
