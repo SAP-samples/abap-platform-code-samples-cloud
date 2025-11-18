@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SCO3" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SCO3>
+    <OBS_ID>ZBTP_TRIAL_SAP_COM_0309_REST</OBS_ID>
+    <OBS_TYPE>REST</OBS_TYPE>
+    <URL_PATH>/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV</URL_PATH>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <NAME>ZBTP_TRIAL_SAP_COM_0309_REST</NAME>
+    <TYPE>SCO3</TYPE>
+    <DESCRIPTION>Product Classification Integration</DESCRIPTION>
+    <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
+   </SCO3>
+  </asx:values>
+ </asx:abap>
+</abapGit>

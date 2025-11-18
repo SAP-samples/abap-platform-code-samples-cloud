@@ -1,58 +1,75 @@
-# ABAP Platform Code Samples for SAP BTP, ABAP environment
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-platform-code-samples-cloud)](https://api.reuse.software/info/github.com/SAP-samples/abap-platform-code-samples-cloud)
-## Description
+# basic_trial_script_for_customer_systems
+Basis trial script adapted such so that it can be run in a customer steampunk system easily
 
-In this repository you will find several packages that contain the sample code of various blog posts.
+# Prerequisites
 
-### How to use side effects in RAP?
+In order to run this workshop in your own system landscape certain prerequisites have to be fullfilled by your system administrators, that are described in the following.  
 
-Blog Post: [How to use side effects in RAP](https://blogs.sap.com/2023/02/23/how-to-use-side-effects-in-rap/)
-* [Code on Github](../../tree/main/src/001)
+If these are fullfilled you can start working on the exercises described below.
 
-<!--
-### How to generate RAP BOs with custom entities  
-* Blog Post: [How to generate RAP BOs with custom entities ?](https://blogs.sap.com/2021/09/21/how-to-generate-rap-bos-with-custom-entities)  
-* [Code on Github](../../tree/main/src/rap_gen_cust_ent)
+<details>   
+<summary>Read more ...(for admin's only 😉) </summary> 
 
-### How to design managed RAP business objects with 3 or more levels of nodes
-* [How to design managed RAP business objects with 3 or more levels of nodes](https://blogs.sap.com/2022/02/18/how-to-design-managed-rap-business-objects-with-3-or-more-levels-of-nodes/)  
-* [Code on Github](../../tree/main/src/zrapcloud)  
+1. You have to setup a SAP BTP ABAP Environment in an existing or a new sub account of your SAP BTP Global Account. 
+2. The subaccount has to be connected via the SAP Cloud Connector with your on-premise SAP S/4HANA System.  
+3. In the SAP BTP ABAP Environment System you have to create a communication arrangement that facilitates the connectivity between the ABAP Cloud stack and your on premise system to build a side-by-side extension
 
-### How to dynamically get a list of the entities of a RAP Business Object (or how to traverse a tree)?
-* [How to dynamically get a list of the entities of a RAP Business Object (or how to traverse a tree)?](https://blogs.sap.com/2022/02/23/how-to-dynamically-get-a-list-of-the-entities-of-a-rap-business-object-or-how-to-traverse-a-tree/)
-* [Code on Github](../../tree/main/src/zrapcloud_tree_traversal)  
+A detailed description of the steps that have to be performed can be found [here](./700_admin_only_configuration_steps/README.md)
 
-### ABAP SDK for SAP Identity Services
-* [readme of the ABAP SDK](readme_abap_ids_sdk.md) 
-* [Code on Github](../../tree/main/src/zdmo_abap_ids_sdk)  
+</details>
 
--->
+----------
 
-## Requirements
 
-This sample code can be deployed on a SAP BTP ABAP Environment system.   
+# Exercises
 
-You have to create a package e.g. `ZDMO_ABAP_CLOUD_SAMPLES_01` beforehand in `ZLOCAL`. 
+By following the exercices described below you will build a shopping cart app as a side-by-side extension to your SAP S/4HANA system.
 
-You have to link this repository to this package.
+## Unit 1 S/4 HANA Extensibility Model and ABAP Cloud
 
-The code for each blog post is stored in a separate sub-package (for example `ZDMO_ABAP_CLOUD_SAMPLES_01_001`) of the super package `ZDMO_ABAP_CLOUD_SAMPLES_01`, that means the package uses **Prefix** folder logic.  
+After completing this unit, you will be able to:  
 
-When you import the content into another package (e.g. ZMYDEMO) the subpackages will be named ZMYDEMO_001 accordingly.  
+Understand how to build on-stack and side-by-side extensions for SAP S/4HANA Cloud and learn about the ABAP Cloud development model.
 
-## Download and Installation
+[1 Lesson](501_BTP_ABAP-Cloud_Extensibility/README.md)
 
-You can download this code and import it into an ABAP environment system using the ABAP GitCLient. Please be sure to have a package e.g. `ZDMO_ABAP_CLOUD_SAMPLES_01` in `ZLOCAL` created beforehand.
+## Unit 2 - Set up your development environment
 
-## Known Issues
+After completing this unit, you will be able to:   
 
-When you try to import this repository into a ABAP environment trial systems it might happen that this import does not run smoothly if another user has already performed an import.
+Set up the ABAP Development Tools for Eclipse (ADT) and logon to the SAP BTP ABAP Environment system, and create your first ABAP Cloud project
 
-## How to obtain support
+[3 Lessons](502_BTP_ABAP-Cloud_GettingStarted/README.md)
 
-[Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.
- 
-For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
+# Unit 3 - Build an application using the ABAP RESTful Application Programming Model (RAP)
 
-## License
-Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
+After completing this unit, you will be able to:
+
+Create an OData based, transactional UI Service using the ABAP RESTful Application Programming Model as a side-by-side extension on the SAP BTP ABAP environment.
+
+[7 Lessons](503_BTP_ABAP-Cloud_RAP/README.md)
+
+# Unit 4 - Create and deploy an SAP Fiori Application using SAP Build Code
+
+After completing this unit, you will be able to:
+
+Create a new SAP Fiori elements application in SAP Build Code and deploy it to SAP BTP ABAP environment
+
+[3 Lessons](504_BTP_ABAP-Cloud_BAS/README.md)
+
+# Unit 5 - Develop your own APIs to call OData services in SAP S/4HANA Cloud (Optional)
+
+After completing this unit, you will be able to:
+
+Create your own sales order API and product API class to call the OData based API’s in SAP S/4HANA Cloud
+
+[5 Lessons](505_BTP_ABAP-Cloud_OData-Service-Consumption/README.md)
+
+# Unit 6 - Further information
+
+After completing this unit, you will be learn:
+
+how you can further improve your ABAP Cloud skills
+
+[1 Lesson](506_BTP_ABAP-Cloud_Appendix/README.md)
+

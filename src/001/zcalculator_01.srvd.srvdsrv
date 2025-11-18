@@ -1,3 +1,0 @@
-define service ZCalculator_01 {
-  expose ZC_CALCULATORTP_01 as Calculator;
-}
