@@ -143,7 +143,10 @@ Unfortunately the service consumption models that are needed as well have to be 
 
 Using a developer user you have to:
 - create a package `ZTRL_BTP_TRIAL`
-- Import the content of this repository into this package
+- Import the content of this repository `abap-platform-code-samples-cloud` using the branch `basic-trial` into this package.   
+  Link to branch:   
+  `https://github.com/SAP-samples/abap-platform-code-samples-cloud/tree/basic-trial` 
+
 
 <details>   
 <summary>Click to expand</summary>
