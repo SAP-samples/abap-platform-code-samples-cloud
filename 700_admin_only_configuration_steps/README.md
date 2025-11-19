@@ -143,20 +143,17 @@ Unfortunately the service consumption models that are needed as well have to be 
 
 Using a developer user you have to:
 - create a package `ZTRL_BTP_TRIAL`
-- Import the content of this repository `abap-platform-code-samples-cloud` using the branch `basic-trial` into this package.   
-  Link to branch:   
-  `https://github.com/SAP-samples/abap-platform-code-samples-cloud/tree/basic-trial` 
-
+- Import the content of this repository `abap-platform-code-samples-cloud` using the branch `basic-trial` into this package 
 
 <details>   
-<summary>Click to expand</summary>
+<summary>as described here. Click to expand</summary>
 Use the abapGit plug-in to import the ABAP Artefacts of this repository by executing the following steps:
 
-1. In your ABAP cloud project, create the ABAP package `ZTRL_BTP_TRIAL` (using e.g. the superpackage `ZLOCAL`) as the target package for the demo content to be downloaded (leave the suggested values unchanged when following the steps in the package creation wizard).  
+1. In your ABAP cloud project, create the ABAP package **`ZTRL_BTP_TRIAL`** (using e.g. the superpackage `ZLOCAL`) as the target package for the demo content to be downloaded (leave the suggested values unchanged when following the steps in the package creation wizard).  
 2. To add the abapGit Repositories view to the ABAP perspective, click **Window** > **Show View** > **Other...** from the menu bar and choose abapGit Repositories.  
-4. In the abapGit Repositories view, click the `+` icon to clone an abapGit repository.
-5. Enter the following URL of this repository: `https://github.com/SAP-samples/abap-platform-rap-workshops.git` and choose **Next**.
-6. Select the branch `basic-trial` and enter the newly created package `ZTRL_BTP_TRIAL` as the target package and choose **Next**.  
+4. In the abapGit Repositories view, click the **`+`** icon to clone an abapGit repository.
+5. Enter the following URL for this repository: `https://github.com/SAP-samples/abap-platform-rap-workshops.git` and choose **Next**.
+6. ⚠️⚠️⚠️ Select the branch **`basic-trial`** and enter the newly created package **`ZTRL_BTP_TRIAL`** as the target package and choose **Next**.  
 7. Choose **Finish** to link the Git repository to your ABAP cloud project. The repository appears in the abapGit Repositories View with status **Linked**.
 8. Right-click on the new ABAP repository and choose pull to start the cloning of the repository contents. Note that this procedure may take a few seconds.
 9. After the import has been finished choose mass activation e.g. by pressing `Ctrl+Shift+F3`. 
